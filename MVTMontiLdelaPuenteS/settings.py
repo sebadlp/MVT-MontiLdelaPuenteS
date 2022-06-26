@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'mvt',
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,7 @@ ROOT_URLCONF = 'MVTMontiLdelaPuenteS.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r'C:\Users\Wolf\Desktop\proyecto_coder\proyectos\MVT-MontiLdelaPuenteS\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
