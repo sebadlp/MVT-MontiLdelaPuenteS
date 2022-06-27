@@ -55,7 +55,7 @@ ROOT_URLCONF = 'MVTMontiLdelaPuenteS.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r'C:\Users\Wolf\Desktop\proyecto_coder\proyectos\MVT-MontiLdelaPuenteS\templates'],
+        'DIRS': [r'C:\Users\ICBC\Desktop\MVT-MontiLdelaPuenteS\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

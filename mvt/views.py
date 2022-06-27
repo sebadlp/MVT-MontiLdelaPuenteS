@@ -6,7 +6,7 @@ from .models import Fliares
 # Create your views here.
 
 def principal(request):
-    # return HttpResponse('<h1>Mi pagina Principal</h1>')
+    #return HttpResponse('<h1>Mi pagina Principal</h1>')
     return render(request, 'menu.html')
 
 def datos_personas(request):
