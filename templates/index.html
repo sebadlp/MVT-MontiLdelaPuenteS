@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> ¡Primer MVT del Equipo! </h1>
+    <p>
+        <ul>
+            <table>
+                <tr>
+                  <td><strong>Nombre</strong></td>
+                  <td><strong>Edad</strong></td>
+                  <td><strong>Fecha de creación</strong></td>
+                </tr>
+            {% for objeto in lista_objetos %}
+                <tr>
+                    <td>{{objeto.nombre}}</td>
+                    <td>{{objeto.edad}}</td>
+                    <td>{{objeto.fecha_creacion}}</td>
+                  </tr>
+            {% endfor %}
+        </ul>
+    </p>
+</body>
+</html>
